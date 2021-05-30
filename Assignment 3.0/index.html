@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>Assignment 3</title>
+    </head>
+    <body style="background-color: rgb(243, 209, 114);text-align: center;">
+        <H1 style="font-size: 30;">FILL THE FORM TO REGISTER!</H1>
+        <div id="div1">
+           <button id="get_token">Get Token</button>
+        </div>
+        <br><br>
+        <form>
+            <input  type="text" id="username" placeholder="User Name" size="40"  required>
+            <br>
+            <input  type="text" id="data" placeholder="Enter Data" size="40" required>
+            <br>
+            <input  type="text" id="token" placeholder="Token" size="40" required>
+            <br><br>
+            <input type="button" value="Submit" id="Register" >
+          </form> 
+          <br>
+          <h3 style="font-size: 20;">After registering, enter Token no. here to access you data</h3>
+          <form>
+            <input  type="text" id="token2" placeholder="Token" size="40" required>
+            <br><br>
+            <input type="button" value="Submit" id="get_data" >
+            <br><br>
+        
+          </form>
+          <div id="div2"></div>
+          <script src="script.js"></script>
+    </body>
+</HTML>
